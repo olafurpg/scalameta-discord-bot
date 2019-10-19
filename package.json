@@ -4,5 +4,15 @@
   "description": "Bot for the Scalameta discord server",
   "main": "bot.js",
   "author": "Olafur Geirsson",
-  "dependencies": {}
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.5.1",
+    "winston": "^3.2.1"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  }
 }
